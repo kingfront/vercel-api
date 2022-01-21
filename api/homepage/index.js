@@ -1,6 +1,6 @@
 const PSDB = require('planetscale-node')
 const conn = new PSDB('main')
-module.exports = (req, res) => {
+module.exports = async (req, res)  => {
   try {
     const [getRows, _] = await conn.query('select * from category')
     res.statusCode = 200
