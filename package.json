@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/shfshanyue/vercel-api#readme",
   "dependencies": {
-    "micro": "^9.3.4"
+    "micro": "^9.3.4",
+    "planetscale-node": "^0.3.0"
   }
 }
