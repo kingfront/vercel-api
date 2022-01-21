@@ -6,10 +6,7 @@ module.exports = (req, res) => {
     res.statusCode = 200
     res.json(getRows)
   } catch (e) {
-    error = new Error('An error occurred while connecting to the database')
-    error.status = 500
-    error.info = { message: 'An error occurred while connecting to the database' }
-    throw error
+    throw new Error('An error occurred while connecting to the database')
   }
   res.send(res)
 }
