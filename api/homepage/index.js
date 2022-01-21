@@ -1,4 +1,4 @@
-import { PSDB } from 'planetscale-node'
+const PSDB = require('planetscale-node')
 const conn = new PSDB('main')
 module.exports = (req, res) => {
   try {
