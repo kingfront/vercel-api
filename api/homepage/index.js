@@ -1,4 +1,4 @@
-const PSDB = require('planetscale-node')
+import {PSDB} from 'planetscale-node';
 const conn = new PSDB('main')
 module.exports = async (req, res)  => {
   try {

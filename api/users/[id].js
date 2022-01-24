@@ -7,5 +7,3 @@ module.exports = (req, res) => {
     email: 'me@shanyue.tech'
   })
 }
-
-1. 如果 3000 已经被监听，则监听 3001 这个端口号
